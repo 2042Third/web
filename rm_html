@@ -1,0 +1,19 @@
+#!/bin/bash
+
+parse_html () {
+
+  a=$( echo $1 | sed 's/^\(.*\)\(\.html\)$/\1/')
+  echo ${a}
+}
+
+for a in $(ls); do 
+
+if [ $a = "index.html" ]
+then
+  echo $a
+else 
+#  parse_html $a
+mv $a $(parse_html $a)
+fi
+done
+
