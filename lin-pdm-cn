@@ -50,7 +50,7 @@ PDM是一个Linux/MacOs终端加密工具，Windows版请前往
   <dl>
 <h2>使用方式</h2>
 <p>
-请前往<a href="https://github.com/2042Third/pdm-crypt" target="_blank">pdm-crypt</a><br />，
+请前往<a href="https://github.com/2042Third/pdm-crypt-module" target="_blank">pdm-crypt</a><br />，
 windows版
 请前往<a href="dryangyi.com/win-pdm" target="_blank">pdm-crypt-win</a><br />
 打开终端，前往解压后文件目录<br />
