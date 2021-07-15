@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <link rel='stylesheet' href='style.css'  type="text/css" >
+
+  <title>PDM</title>
+</head>
+<body>
+<main >
+<!-- Site navigation menu -->
+<nav>
+            <ul class="menu">
+                <li><a href="pdm-main.html">PDM 个人数据管理系统</a></li>
+
+            </ul>
+        </nav>
+
+<h1>PDM 个人数据管理系统</h1>
+
+<p>
+PDM是一个Linux/MacOs终端加密工具，Windows版请前往
+  <a href="https://github.com/2042Third/pdm-crypt-win" target="_blank">pdm-crypt-win</a>.
+</p>
+
+<h2>目前状态:</h2>
+已开启sha3三代安全散列算法，加 “-s” 来关闭散列算法。<br />
+目前仅使用c++ stl库（boost库版本请在github上找记录但不再更新）<br />
+<h2>更新 2021年7月6日: </h2>
+<dl>
+<dt>添加功能</dt>
+  <dd>MacOs和Linux安装脚本 （“src/update-bin.sh”）</dd>
+<dd>完全随机nonce码生成</dd>
+<dd>sha3安全散列</dd>
+<dd>新的终端ui</dd>
+<dt>修复</dt>
+  <dd>nonce无法重复使用</dd>
+  <dd>绝大部分硬盘读取已经序列化</dd>
+  <dd>全部硬盘写已序列化</dd>
+  <dd>以及其他bug修复</dd>
+</dl>
+<br />
+<h2>基准测试</h2>
+<dl>
+<dt>pdm加密3gb视频。在硬盘读写：</dt>
+<dd>20 round chacha20: ~5.1秒 </dd>
+<dd>12 round chacha20: ~3.10秒 </dd>
+  <dl>
+<h2>使用方式</h2>
+<p>
+请前往<a href="https://github.com/2042Third/pdm-crypt" target="_blank">pdm-crypt</a><br />，
+windows版
+请前往<a href="dryangyi.com/win-pdm" target="_blank">pdm-crypt-win</a><br />
+打开终端，前往解压后文件目录<br />
+运行脚本 "sh ./build_t" （如果没有反应加“sudo ”）<br />
+你的所在文件夹将有两个unix可运行的二进制，"c20" 和 "c20de"<br/>
+运行<blockquote>c20 "文件名"</blockquote>来加密<br/>
+运行<blockquote>c20de "文件名"</blockquote>来解密<br/>
+
+<dl>
+<li>加"-h"旗: 收起进度条</li>
+<li>加"-s"旗: 关闭sha3安全散列</li>
+
+
+<li>加密后文件：<blockquote>c20 "文件名"</blockquote> 将叫做“文件名.pdm”</li>
+<li>解密后文件：<blockquote>c20de "文件名"</blockquote> 将叫做“dec-文件名”</li>
+<li>在解密时不要输入“文件名.pdm”，请输入“文件名” </li>
+
+</dl>
+</p>
+</main>
+<footer>
+  <a href="https://github.com/2042third" target="_blank">Source</a>
+  <br><br>
+  <span id="version"></span><br>
+  Copyright (c) 2021 Yang Yi<br>
+  <a href="https://dryangyi.com" target="_blank">dryangyi.com</a>
+</footer>
+</body>
+</html>
