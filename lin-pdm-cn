@@ -12,11 +12,14 @@
 <main >
 <!-- Site navigation menu -->
 <nav>
-            <ul class="menu">
-                <li><a href="pdm-main-cn">PDM 个人数据管理系统</a></li>
+  <ul class="menu">
+    <li><a href="index.html">Home page</a>
+    <li><a href="lin-pdm">PDM</a>
+    <li><a href="downloads/lists">Downloads</a>
+    <li><a href="pdm-main-cn">中文</a>
 
-            </ul>
-        </nav>
+  </ul>
+</nav>
 
 <h1>PDM 个人数据管理系统</h1>
 

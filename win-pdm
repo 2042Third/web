@@ -9,10 +9,15 @@
 <body>
   <main>
 <!-- Site navigation menu -->
-<ul class="navbar">
-  <li><a href="index.html">Home page</a>
+<nav>
+  <ul class="menu">
+    <li><a href="index.html">Home page</a>
+    <li><a href="lin-pdm">PDM</a>
+    <li><a href="downloads/lists">Downloads</a>
+    <li><a href="pdm-main-cn">中文</a>
 
-</ul>
+  </ul>
+</nav>
 <h1>pdm cryptography core module</h1>
 
 <p>
