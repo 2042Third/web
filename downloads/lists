@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <link rel='stylesheet' href='../style.css'  type="text/css" >
+
+  <title>PDM crypto</title>
+</head>
+
+<body>
+<main>
+  <h1>Downloads</h1>
+
+<nav>
+  <ul class="menu">
+    <li><a href="../index.html">Home page</a>
+    <li><a href="../lin-pdm">PDM</a>
+    <li><a href="../downloads/lists">Downloads</a>
+    <li><a href="../pdm-main-cn">中文</a>
+
+  </ul>
+</nav>
+
+<h2>PGM macos GUI/界面版 （未完成，试用版）</h2>
+<p>
+  
+<a href="../server-binary/pdm-macos界面-未完成.zip" download="pdm-macos界面-未完成.zip">
+  DOWNLOAD/下载
+</a>
+
+</p>
+<br/>
+<br/>
+<h2>PGM macos linux command line /终端版</h2>
+<p>
+  
+<a href="../server-binary/pdm-macos-linux.zip" download="pdm-macos-linux.zip">
+  DOWNLOAD/下载
+</a>
+
+</p>
+<br/>
+<br/>
+<h2>PGM windows/终端版</h2>
+<p>
+  
+<a href="../server-binary/pdm-windows.zip" download="pdm-windows.zip">
+  DOWNLOAD/下载
+</a>
+
+</p>
+
+
+</main>
+<footer>
+  <a href="https://github.com/2042third" target="_blank">Source</a>
+  <br><br>
+  <span id="version"></span><br>
+  Copyright (c) 2021 Yang Yi<br>
+  <a href="https://dryangyi.com" target="_blank">dryangyi.com</a>
+</footer>
+</body>
+</html>

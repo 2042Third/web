@@ -14,12 +14,16 @@
 
 <nav>
   <ul class="menu">
-    <li><a href="pdm-main-cn.html">主页</a>
-    <li><a href="lin-pdm-cn.html">PDM</a>
-    <li><a href="pdm-main.html">English</a>
+    <li><a href="pdm-main-cn">主页</a>
+    <li><a href="lin-pdm-cn">PDM</a>
+    <li><a href="pdm-main">English</a>
 
   </ul>
 </nav>
+<p>
+  此网站正在创建中...<br/>
+  PDM的界面版本，包括大量文件同时加密和加密记事本正在开发。<br/>
+</p>
 </main>
 <footer>
   <a href="https://github.com/2042third" target="_blank">Source</a>

@@ -13,7 +13,7 @@
 <!-- Site navigation menu -->
 <nav>
             <ul class="menu">
-                <li><a href="pdm-main.html">PDM 个人数据管理系统</a></li>
+                <li><a href="pdm-main-cn">PDM 个人数据管理系统</a></li>
 
             </ul>
         </nav>

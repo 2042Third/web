@@ -13,10 +13,8 @@
 <!-- Site navigation menu -->
 <nav>
             <ul class="menu">
-                <li><a href="pdm-main.html">Personal Data Management</a></li>
-                <li><a href="settings.html">Settings</a></li>
-                <li><a href="terminal.html">Terminal</a></li>
-                <li><a href="credits.html">About</a></li>
+                <li><a href="index.html">Personal Data Management</a></li>
+
             </ul>
         </nav>
 
