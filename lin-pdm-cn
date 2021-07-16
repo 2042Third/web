@@ -26,9 +26,11 @@ PDM是一个Linux/MacOs终端加密工具，Windows版请前往
 </p>
 
 <h2>目前状态:</h2>
+<p>
 已开启sha3三代安全散列算法，加 “-s” 来关闭散列算法。<br />
-目前仅使用c++ stl库（boost库版本请在github上找记录但不再更新）<br />
+目前仅使用c++ stl库（boost库版本请在github上找记录但不再更新）<br /></p>
 <h2>更新 2021年7月6日: </h2>
+<p>
 <dl>
 <dt>添加功能</dt>
   <dd>MacOs和Linux安装脚本 （“src/update-bin.sh”）</dd>
@@ -42,12 +44,15 @@ PDM是一个Linux/MacOs终端加密工具，Windows版请前往
   <dd>以及其他bug修复</dd>
 </dl>
 <br />
+</p>
 <h2>基准测试</h2>
+<p>
 <dl>
 <dt>pdm加密3gb视频。在硬盘读写：</dt>
 <dd>20 round chacha20: ~5.1秒 </dd>
 <dd>12 round chacha20: ~3.10秒 </dd>
-  <dl>
+  </dl>
+</p>
 <h2>使用方式</h2>
 <p>
 请前往<a href="https://github.com/2042Third/pdm-crypt-module" target="_blank">pdm-crypt</a><br />，
@@ -70,6 +75,7 @@ windows版
 
 </dl>
 </p>
+
 </main>
 <footer>
   <a href="https://github.com/2042third" target="_blank">Source</a>
