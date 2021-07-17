@@ -26,6 +26,7 @@ This a commandl line encryption tool for linux and macOS, for windwos version pl
 </p>
 
 <h2>CURRENT STATUS:</h2>
+Macos Progress Bar is not working, please using "-h" flag to disable the progress bar<br/>
 enabled sha3 checking<br />
 using boost thread (stl pthread also avaliable)<br />
 <h2>updated 7/4/2021: </h2>

@@ -24,6 +24,14 @@
   此网站正在创建中...<br/>
   PDM的界面版本，包括大量文件同时加密和加密记事本正在开发。<br/>
 </p>
+<p>
+  <h2>当前工作进程</h2>
+  <dl>
+    <li>pdm macos 的进度条修复</li>
+    <li>pdm 界面版的加密清理内存公式</li>
+    <li>pdm windows 版的bug修复</li>
+  </dl>
+</p>
 </main>
 <footer>
   <a href="https://github.com/2042third" target="_blank">Source</a>
