@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <link rel='stylesheet' href='style.css'  type="text/css" >
+
+  <title>PDM crypto</title>
+</head>
+<body>
+<main >
+<!-- Site navigation menu -->
+<nav>
+  <ul class="menu">
+    <li><a href="../index.html">Home page</a>
+  </ul>
+</nav>
+
+<h2>Geolocation</h2>
+<p>
+<button onclick="getLocation()" class="primary">Get My Location</button>
+  <p id=geo></p>
+<script>
+var x = document.getElementById("geo");
+
+function getLocation() {
+  if (navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(showPosition, showError);
+  } else { 
+    x.innerHTML = "Geolocation is not supported by this browser.";
+  }
+}
+
+function showPosition(position) {
+  x.innerHTML = "Latitude: " + position.coords.latitude + 
+  "<br>Longitude: " + position.coords.longitude;
+}
+
+function showError(error) {
+  switch(error.code) {
+    case error.PERMISSION_DENIED:
+      x.innerHTML = "User denied the request for Geolocation."
+      break;
+    case error.POSITION_UNAVAILABLE:
+      x.innerHTML = "Location information is unavailable."
+      break;
+    case error.TIMEOUT:
+      x.innerHTML = "The request to get user location timed out."
+      break;
+    case error.UNKNOWN_ERROR:
+      x.innerHTML = "An unknown error occurred."
+      break;
+  }
+}
+</script>
+</p>
+<h2>RPI courses hour web API</h2>
+<p>The courses are updated every 30 mins. Parsed in json-readable formats.<br>
+<a href="../rpi-classes/lst" download="clshr.json">
+  DOWNLOAD
+</a><br>Updated on:
+<object data="./update-log"  height=30>
+update log
+</object>
+<object data="../rpi-classes/lst" class="white" height=400>
+View
+</object>
+</p>
+</body>
+</html>
